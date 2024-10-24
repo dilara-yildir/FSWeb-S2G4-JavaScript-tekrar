@@ -80,7 +80,7 @@ describe('sayilar görevi', ()=>{
     it('siralisayilar düzgün sıralanmış', ()=>{
 	expect(functions.siralisayilar).toEqual(sirali);
     })
-    it('tekraredensayilar tekrar eden tüm sayıları içeriyor',  ()=>{
+    it('tekraredensayilar tekrar eden tüm sayıları içeriyor', ()=>{
 	expect(functions.tekraredensayilar).toEqual(expect.arrayContaining(tekrar));
     })
 });
