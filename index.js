@@ -167,7 +167,7 @@ function sa() {
   return "as";
 }
 sa();
-module.exports  = {
+module.exports = {
   sa,
   CemberinCevresi,
   CemberinAlani,
